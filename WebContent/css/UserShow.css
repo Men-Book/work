@@ -1,0 +1,214 @@
+*{
+	margin: 0em;
+	color: #7C7B7B;
+	font-family: "微软雅黑";
+}
+
+body{
+	background-color: #F6F6F6;
+	
+}
+
+/*------------------------------------头--------------------------------*/
+header{
+	width: 100%;
+	height: 2em;
+	background-color: #e4393c;
+}
+
+.usershop_login{
+	float: right;
+	margin: 0.5em 2em 0.5em 0.5em;
+	width: 8em;
+	height: 1em;
+	line-height: 0px;
+}
+
+.usershop_indent{
+	float: right;
+	margin: 0.5em 2em 0.5em 0.5em;
+	width: 4em;
+	height: 1em;
+	line-height: 0px;
+}
+
+.usershop_indent a{
+	display: block;
+	font-size: 12px;
+	text-decoration: none;
+	color: #FFFFF7;
+	margin: 0.6em;
+	float: left;
+}
+
+.usershop_indent a:hover{
+	color: #000000;
+}
+.usershop_login a{
+	display: block;
+	font-size: 12px;
+	text-decoration: none;
+	color: #FFFFF7;
+	margin: 0.6em;
+	float: left;
+}
+
+.usershop_login a:hover{
+	color: #000000;
+}
+.login_people{
+	width: 16px;
+	height: 16px;
+}
+.login_people img{
+	width: 16px;
+	height: 16px;
+}
+/*--------------------------------------总界面--------------------------*/
+.show_list{
+	width: 100%;
+	height: 40em;
+}
+
+/*-------------------------------------左界面-----------------------------*/
+.meau_left{
+	float: left;
+	width: 25%;
+	height: 40em;
+	background-color: #E7E6E6;
+}
+
+.meau_style{
+	perspective: inherit;
+	width: 100%;
+	height: 2em;
+	border-radius: 2.5em;
+	background-color: #D1D0D0;
+	margin: 0.5em 0em 0.5em 0em;
+	
+}
+.meau_style a{
+	perspective: inherit;
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	height: 2em;
+	border-radius: 2.5em;
+	line-height: 2em;
+	text-align: center;
+}
+.meau_style a:hover{
+	color: #C20404;
+}
+
+
+/*-----------------------------------右界面-------------------------------*/
+.meau_right{
+	float: right;
+	width: 75%;
+	height: 40em;
+	background-color: #F6F6F6;
+	color: ;
+}
+
+.meau_meal{
+	perspective: inherit;
+	width: 100%;
+	height: 6em;
+	border-radius: 0.5em;
+	background-color: #D1D0D0;
+	margin: 0.5em 0em 0.5em 0em;
+	padding: 1px;
+}
+
+.meau_meal_img{
+	perspective: inherit;
+	float: left;
+	width: 5em;
+	height: 5em;
+	border-radius: 0.5em;
+	background-color: #B2B2B2;
+	margin: 0.5em 0.5em 0.5em 0.5em;
+	
+}
+
+.meau_meal_img img{
+	width: 5em;
+	height: 5em;
+	border-radius: 0.5em;
+}
+/*                               菜文字*/
+.meau_txt{
+	float: left;
+	width: 80%;
+	height: 5em;
+	margin: 0.5em auto;
+}
+.meau_txt .meau_price{
+	color: red;
+	font-size: 0.8em;
+	margin: 0.5em;
+}
+
+.meau_meal a{
+	float: right;
+	text-decoration: none;
+	width: 4.5%;
+	height: 2em;
+	margin: 1.5em;
+	border-bottom: 1px solid red;
+	text-align: center;
+	padding: 0px;
+	font-size: 1em;
+}
+
+
+.meau_meal input{
+	float: right;
+	width: 4.5%;
+	height: 2em;
+	margin: 1.5em;
+	border-bottom: 1px solid red;
+	border-radius: 2em;
+	text-align: center;
+	padding: 0px;
+	font-size: 1em;
+}
+
+.meau_meal input:hover{
+	color: #C20404;
+	cursor:pointer;
+}
+/*-----------------------------页脚------------------------*/
+footer{
+	width: 70%;
+	height: 5em;
+	margin: 1em auto;
+}
+
+.links{
+	perspective: initial;
+	width: 70%;
+	height: 1.5em;
+	margin: 0em auto;
+}
+.links a{
+	font-size: 12px;
+	margin: 0.5em;
+	text-decoration: none;
+	color: #7C7B7B;
+}
+
+.conpright{
+	text-align: center;
+	font-size: 12px;
+	color: #7C7B7B;
+	margin: 0.5em;
+}
+
+
+
+/*---------------------------------------清除div------------------------------*/
+.clear{
+    clear:both;
+}
