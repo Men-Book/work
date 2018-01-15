@@ -15,6 +15,9 @@
 </head>
 <body>
 	<header>
+	<div class="hotel_logo">
+			<img src="images/logo.png" width="48px" height="48px"/>
+	</div>
 	<div class="usershop_login">
 		<span class="login_people"><img src="images/6.png" /></span> <a
 			href="#">欢迎您*${USER.user_name }*</a>
@@ -25,6 +28,20 @@
 	</header>
 	<div class="show_list">
 		<div class="meau_left">
+		<div class="meau_style_img">
+				<li><img src="images/style.png" width="32px" height="32px"></li>
+				<li><img src="images/addstyle_blue.png" width="32px" height="32px"></li>
+				<li><img src="images/addmeal_yellow.png" width="32px" height="32px"></li>
+			</div>
+			<div class="meau_style_hotel">
+				<h3>&nbsp;&nbsp;商家简介:</h3>
+				<p>&nbsp;&nbsp;发生的符合三水电费空间哈</p>
+				<p>&nbsp;&nbsp;多少分但是返回的算法第三方是</p>
+				<p>&nbsp;&nbsp;是否能啊时代峻峰</p>
+				<p>&nbsp;&nbsp;多少分但是返回的算法第三方是</p>
+				<p>&nbsp;&nbsp;是否能啊时代峻峰</p>
+			</div>
+		
 		<c:forEach items="${STYLELIST }" var="stylelist">
 			<div class="meau_style">
 				<a href="javascript:void(0);" onclick="getMeal(${stylelist.style_id });">${stylelist.style_name }</a>
